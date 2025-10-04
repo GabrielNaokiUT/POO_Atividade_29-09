@@ -8,6 +8,11 @@ public class Livro{
         this.autor = autor;
         this.pag = pag;
     }
+    public Livro(String titulo){
+        this.titulo = titulo;
+        this.autor = null;
+        this.pag = 0;
+    }
     public void mostrarinfo(){
         System.out.println("Título: " + titulo + ", autor: " + autor + ", quantidade  de páginas: " + pag);
         System.out.println();
